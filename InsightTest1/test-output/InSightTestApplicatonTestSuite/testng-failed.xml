@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [InSightTestApplicatonTestSuite]">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="InSightTest Test Cases2(failed)">
+    <classes>
+      <class name="testcases.HomePageT1Test">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.HomePageT1Test -->
+      <class name="testcases.LoginPageT1Test">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.LoginPageT1Test -->
+      <class name="testcases.SetupPageT1Test">
+        <methods>
+          <include name="ProjectNumber"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="ProjectGender"/>
+        </methods>
+      </class> <!-- testcases.SetupPageT1Test -->
+    </classes>
+  </test> <!-- InSightTest Test Cases2(failed) -->
+</suite> <!-- Failed suite [InSightTestApplicatonTestSuite] -->

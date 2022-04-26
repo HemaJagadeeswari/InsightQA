@@ -1,0 +1,24 @@
+<suite thread-count="1" verbose="1" name="InSightTestApplicatonTestSuite" annotations="JDK">
+<listeners>
+		<listener class-name="ExtentReportListener.ExtentReportListener" />
+	</listeners>
+	 <test name="InSightTest Test Cases">
+    <classes>
+       <class name="testcases.LoginPageT1Test"/>
+      </classes>
+      </test>
+	 <test name="InSightTest Test Cases1">
+    <classes>
+       <class name="testcases.HomePageT1Test"/>
+      </classes>
+      </test>
+       <test name="InSightTest Test Cases2">
+    <classes>
+       <class name="testcases.SetupPageT1Test"/>
+      </classes>
+      </test>  
+</suite>
+ 
+ 
+ 
+ 

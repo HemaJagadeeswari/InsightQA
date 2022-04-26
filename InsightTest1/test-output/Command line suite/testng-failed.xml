@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testcases.DashboardPageTest">
+        <methods>
+          <include name="DashboardPageSection1"/>
+          <include name="DashboardPageSection9"/>
+          <include name="Entity"/>
+          <include name="DetailsPageSelection"/>
+          <include name="DashboardPageSection10"/>
+          <include name="DashboardPageSection3"/>
+          <include name="DashboardPageSection11"/>
+          <include name="DashboardPageSection4"/>
+          <include name="DashboardPageSection2"/>
+          <include name="DashboardPageSection7"/>
+          <include name="DashboardPageSection8"/>
+          <include name="DashboardPageSection5"/>
+          <include name="DashboardPageSection6"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.DashboardPageTest -->
+      <class name="testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginPageLogo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTest -->
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="ProjectNameVerification"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
