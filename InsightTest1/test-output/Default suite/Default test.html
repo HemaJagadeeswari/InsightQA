@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/9</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 26 01:09:59 IST 2022</td>
+<td>Started on:</td><td>Wed Apr 27 11:19:10 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (296 ms)</td>
+<tr><td>Total time:</td><td>120 seconds (120026 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,307 +67,33 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at pages.LoginPage.Login(LoginPage.java:129)
-	at testcases.HomePageTest.setup(HomePageTest.java:43)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace951880373", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace951880373'><pre>java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at pages.LoginPage.Login(LoginPage.java:129)
-	at testcases.HomePageTest.setup(HomePageTest.java:43)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
+<td title='testcases.LoginPageTest.LoginPageTitleTest()'><b>LoginPageTitleTest</b><br>Test class: testcases.LoginPageTest<br>Test method: Login Page: Page Title Test</td>
 <td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
+<td>1</td>
+<td>testcases.LoginPageTest@20ce78ec</td></tr>
 <tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
+<td title='testcases.LoginPageTest.ForgotPasswordImageVerification()'><b>ForgotPasswordImageVerification</b><br>Test class: testcases.LoginPageTest<br>Test method: Login Page: Forgot Password Image Test</td>
 <td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
+<td>5</td>
+<td>testcases.LoginPageTest@20ce78ec</td></tr>
 <tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
+<td title='testcases.LoginPageTest.LoginPageImageVerification()'><b>LoginPageImageVerification</b><br>Test class: testcases.LoginPageTest<br>Test method: Login Page: Page Image Test</td>
 <td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
+<td>11</td>
+<td>testcases.LoginPageTest@20ce78ec</td></tr>
 <tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
+<td title='testcases.LoginPageTest.LoginTest()'><b>LoginTest</b><br>Test class: testcases.LoginPageTest<br>Test method: Login Page: Login to Application</td>
 <td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.setup()'><b>setup</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.tearDown()'><b>tearDown</b><br>Test class: testcases.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testcases.HomePageTest.HomePageDropdownVerification()'><b>HomePageDropdownVerification</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page: Dropdown Verification</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
-	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
-
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:143)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.Error: Unresolved compilation problem: 
-	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
-
-	at util.TestUtil.getTestDataBaseline(TestUtil.java:149)
-	at testcases.HomePageTest.getTestDataBaseline(HomePageTest.java:98)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:117)
-	... 20 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace455538610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace455538610'><pre>java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
-	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
-
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:143)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.Error: Unresolved compilation problem: 
-	Cannot switch on a value of type String for source level below 1.7. Only convertible int values or enum variables are permitted
-
-	at util.TestUtil.getTestDataBaseline(TestUtil.java:149)
-	at testcases.HomePageTest.getTestDataBaseline(HomePageTest.java:98)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:117)
-	... 20 more
-</pre></div></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.HomePageImage()'><b>HomePageImage</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Page Image Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.HomePageSection1()'><b>HomePageSection1</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Project Portfolio Section Name Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.HomePageSection2()'><b>HomePageSection2</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Select a Project Section Name Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.HomePageTab1()'><b>HomePageTab1</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Employees Tab Name Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.HomePageTab2()'><b>HomePageTab2</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Contractors Tab Name Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.ProjectNameinTableView()'><b>ProjectNameinTableView</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Search by Contractor image Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.SearchByContractorSearchTest()'><b>SearchByContractorSearchTest</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Search by Contractor Search Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.SingleContractorView()'><b>SingleContractorView</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Single Contractors image Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
-<tr>
-<td title='testcases.HomePageTest.projectselection()'><b>projectselection</b><br>Test class: testcases.HomePageTest<br>Test method: Home Page:Project Name Selection Test</td>
-<td></td>
-<td>0</td>
-<td>testcases.HomePageTest@5025a98f</td></tr>
+<td>2</td>
+<td>testcases.LoginPageTest@20ce78ec</td></tr>
 </table><p>
 </body>
 </html>

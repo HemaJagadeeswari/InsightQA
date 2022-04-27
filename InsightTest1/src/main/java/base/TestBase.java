@@ -1,25 +1,16 @@
 package base;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
-import java.lang.annotation.*;
-
 import util.TestUtil;
 import util.WebEventListener;
 
@@ -36,7 +27,7 @@ public class TestBase {
 	try
 	{
 prop= new Properties();
-FileInputStream Config=new FileInputStream("F:\\SkillSmart\\SkillSmart Automation\\Workspace\\InsightTest\\src\\main\\java\\config\\config.properties");
+FileInputStream Config=new FileInputStream("F:\\Skillsmart\\SkillSmart Automation\\Workspace\\InsightTest\\src\\main\\java\\config\\config.properties");
 prop.load(Config);
 	}
 
@@ -52,7 +43,7 @@ prop.load(Config);
 		browsername=prop.getProperty("Browser");
 		if(browsername.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","F:\\SkillSmart\\SkillSmart Automation\\Workspace\\SW\\chromedriver_win32 (10)\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();

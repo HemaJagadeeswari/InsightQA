@@ -14,7 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 
-import com.sun.javafx.collections.MappingChange.Map;
+//import com.sun.javafx.collections.MappingChange.Map;
 //import com.sun.rowset.internal.Row;
 
 import base.TestBase;
@@ -34,9 +34,9 @@ import java.util.stream.Collectors;
 public class TestUtil extends TestBase{
 	public static long Page_Load_Time=50;
 	public static long Implicit_Time=30;
-	public static String TESTDATA_SHEET_PATH_INPUTFILE = "F:\\SkillSmart\\SkillSmart Automation\\Workspace\\InsightTest\\src\\main\\java\\testdata\\Automation Input File3.xlsx";
+	public static String TESTDATA_SHEET_PATH_INPUTFILE = "F:\\SkillSmart\\SkillSmart Automation\\Workspace\\InsightTest\\src\\main\\java\\testdata\\Automation Input File.xlsx";
 	public static String TESTDATA_SHEET_PATH_BASELINE = "F:\\SkillSmart\\SkillSmart Automation\\Workspace\\InsightTest\\src\\main\\java\\testdata\\Baseline File.xlsx";
-	public static String TESTDATA_SHEET_PATH_IMPORTFILE="F:\\SkillSmart\\SkillSmart Automation\\Workspace\\InsightTest\\src\\main\\java\\testdata\\skillsmart-employee-template_New3.xlsx";
+	public static String TESTDATA_SHEET_PATH_IMPORTFILE="F:\\SkillSmart\\SkillSmart Automation\\Workspace\\InsightTest\\src\\main\\java\\testdata\\skillsmart-employee-template.xlsx";
 	//public static String FileDownloadpath="F:\\SkillSmart\\SkillSmart Automation\\Workspace\\InsightTest\\Download";
 	//public static String TESTDATA_SHEET_PATH_BASELINE = "F:\\BaselineNew.xlsx";
 

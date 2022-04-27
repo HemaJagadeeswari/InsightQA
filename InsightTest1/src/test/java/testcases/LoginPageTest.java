@@ -31,20 +31,20 @@ public void setup()
 	Loginpage=new LoginPage();
 	}
 	
-//@Test(priority=0,description="Login Page: Page Title Test")
+@Test(priority=0,description="Login Page: Page Title Test")
 public void LoginPageTitleTest()
 {
 	String title=LoginPage.ValidateLoginPageTitle();
 	Assert.assertEquals(title,"Welcome to SkillSmart","Home Page Title is not matched");
 	}
 
-//@Test(priority=1,description="Login Page: Page Image Test" )
+@Test(priority=1,description="Login Page: Page Image Test" )
 public void LoginPageImageVerification() throws IOException
 {
 Loginpage.LoginPageImageVerification();
 }
 
-//@Test(priority=2,description="Login Page: Forgot Password Image Test" )
+@Test(priority=2,description="Login Page: Forgot Password Image Test" )
 public void ForgotPasswordImageVerification() throws IOException
 {
 Loginpage.ForgotPasswordImageVerification();
